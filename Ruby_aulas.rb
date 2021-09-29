@@ -85,6 +85,16 @@ lista2 = [4,5,6]
 resultado = lista1+lista2
 puts resultado # mostra a junção dos elementos  das duas listas um em cada linha
 p resultado  # mostra um array com a junção dos elementos das duas listas 
+puts "-" * 10 # separador
+
+# hash guarda chaves "key" e  valor "values"
+h = {} # cria o hash
+h [:nome] = "cristian"
+h[:idade] = 48
+
+p h.keys  # mostra a chave
+p h.values #mostra o valor
+
 
 
 
