@@ -89,8 +89,8 @@ puts "-" * 10 # separador
 
 # hash guarda chaves "key" e  valor "values"
 h = {} # cria o hash
-h [:nome] = "cristian"
-h[:idade] = 48
+h [:nome] = "cristian" # chave
+h[:idade] = 48 # valor
 
 p h.keys  # mostra a chave
 p h.values #mostra o valor
