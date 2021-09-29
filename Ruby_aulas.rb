@@ -45,6 +45,7 @@ p ["a","b","c"]   # é igual ao puts mas não quebra linha
 print ["a","b","c"] # igual ao p não quebra linha 
 =end
 
+=begin
  nome = "cadu"
  puts nome[0] # tras a posição 0 que é a letra "c"
  puts nome[0,3] # tras as letras entre a posição 0 e a posição 3"
@@ -59,9 +60,24 @@ numero = 42
 puts "o número é %05d" % numero  # formata a saída do numero com 5 digitos 3 a frente do numero
  
 puts nome.upcase.object_id # mostra o número do objeto criado, ideal para saber se criou outro objeto ou variável na memória
+=end
 
+# Descobrindo a classe do objeto
+puts 42.class # mostra que é um número inteiro
+puts 42.00.class # mostra que é um número float
+lista = [1, 2, "cristian"] # no array os elementos podem ser de diferentes tipos em Ruby
+puts lista # imprime um item a cada linha, usando quebra de linha  
+p lista # imprime em formato de array em linha 
+puts "-" * 10 # separador
+lista.append("Sandra")# adiciona um elemento a lista 
+puts lista
 
-
+puts "-" * 10 # separador 
+puts lista.first # mostra o primeiro elemento da lista
+puts lista.last  # mostra o último elemento da lista
+puts lista.empty? # mostra se a lista esta vazia "true" se tiver item "false"
+puts "-" * 10 # separador
+  
 
 
 
