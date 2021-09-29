@@ -70,6 +70,7 @@ puts lista # imprime um item a cada linha, usando quebra de linha
 p lista # imprime em formato de array em linha 
 puts "-" * 10 # separador
 lista.append("Sandra")# adiciona um elemento a lista 
+lista << "Miguel"  # adiciona um elemento a lista 
 puts lista
 
 puts "-" * 10 # separador 
@@ -77,6 +78,16 @@ puts lista.first # mostra o primeiro elemento da lista
 puts lista.last  # mostra o último elemento da lista
 puts lista.empty? # mostra se a lista esta vazia "true" se tiver item "false"
 puts "-" * 10 # separador
+
+# juntando duas listas 
+lista1 = [1,2,3]
+lista2 = [4,5,6]
+resultado = lista1+lista2
+puts resultado # mostra a junção dos elementos  das duas listas um em cada linha
+p resultado  # mostra um array com a junção dos elementos das duas listas 
+
+
+
   
 
 
